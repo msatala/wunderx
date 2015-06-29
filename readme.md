@@ -1,5 +1,5 @@
 # WundeRx 0.1
-Multi-platform todo app created built with ionic, scala.js, scala.rx and akka actors. Server is Play. 
+Multi-platform todo app built with ionic, scala.js, scala.rx and akka actors. Server is Play. 
 
 Built for [Slovak Scala Users' Group](http://www.meetup.com/slovak-scala/).
 
