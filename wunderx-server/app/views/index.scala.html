@@ -1,0 +1,28 @@
+@()(implicit request: RequestHeader)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title></title>
+
+            <!-- compiled css output -->
+        <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
+    </head>
+
+    <body ng-app="wunderx">
+        <script type="text/javascript">
+            window.webSocketUrl ="@{routes.WundeRxCtrl.ws().webSocketURL()}"
+        </script>
+
+        <ng-include src="'wunderx.html'">
+            Loading WundeRx ...
+        </ng-include>
+            <!-- ionic/angularjs js -->
+        <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+
+            <!-- your app's js -->
+        @playscalajs.html.scripts("", projectName = "wunderxclient")
+    </body>
+</html>

@@ -1,0 +1,7 @@
+/* Empty. Add your own CSS if you like */
+
+@media all and (min-width:768px) {
+    .hide-when-large {
+        display: none;
+    }
+}

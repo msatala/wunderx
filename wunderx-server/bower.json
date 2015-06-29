@@ -1,0 +1,7 @@
+{
+  "name": "wunderx",
+  "private": "true",
+  "dependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0"
+  }
+}
