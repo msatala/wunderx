@@ -10,6 +10,15 @@ Built for [Slovak Scala Users' Group](http://www.meetup.com/slovak-scala/).
 - [Scala.Rx](https://github.com/lihaoyi/scala.rx) - Reactive variables that solve most mutability problems that come up in modern client applications
 - [jsactor](https://github.com/CodeMettle/jsactor) - Experimental (not production ready) implementation of Akka Actors for scala.js 
 
+## Screenshots
+Web app:
+
+![Web app](http://i.imgur.com/b5SbzBO.png)
+
+Android app:
+
+![Android app](http://i.imgur.com/4uYv6Cp.png)
+
 ## Notes
 Package `boilerplate` contains code that is necessary for all "lego bricks" to work together. This code is static and doesn't grow with the app.
 
